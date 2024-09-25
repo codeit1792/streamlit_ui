@@ -2,9 +2,6 @@ import streamlit as st
 from huggingface_hub import login
 from vllm import LLM, SamplingParams
 
-# Automatically log in to Hugging Face using the provided token
-login(token='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')
-
 # Streamlit UI Layout
 st.set_page_config(page_title="QPiAI Chat", layout="wide")
 st.title("🤖 QPiAI Chat")
